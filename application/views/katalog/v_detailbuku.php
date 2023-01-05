@@ -46,7 +46,7 @@
         <!-- <span>FlexStart</span> -->
         <!-- <h1><a href="<?php echo base_url();?>Home"><span>Perpustakaan</span></a></h1> -->
         <!-- <a href=""><img src="<?php echo base_url();?>Bootslander/assets/img/logo_bps.png" alt="" class="img-fluid" width="250" height="100"></a> -->
-        <a href=""><img src="<?php echo base_url();?>Bootslander/assets/img/Bps.png" alt="" class="img-fluid" width="250" height="100"></a>
+        <a href=""><img src="<?php echo base_url();?>Bootslander/assets/img/logobps.png" alt="" class="img-fluid" width="230" height="90"></a>
       <!-- </a> -->
 
       <!-- <div class="logo"> -->
@@ -93,16 +93,8 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
-                <div class="swiper-slide">
+                <div class="swiper-slide" >
                   <img src="<?php echo base_url();?>Bootslander/assets/img/buku/bk4.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="<?php echo base_url();?>Bootslander/assets/img/portfolio/portfolio-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="<?php echo base_url();?>Bootslander/assets/img/portfolio/portfolio-3.jpg" alt="">
                 </div>
 
               </div>
@@ -114,11 +106,13 @@
             <div class="portfolio-info">
               <h3>HARGA PERDAGANGAN BESAR KOMODITI SEKTOR PERTANIAN</h3>
               <ul>
-                <li><strong>Subyek</strong>: Keuangan</li>
-                <li><strong>ISBN</strong>: 2747-254X</li>
-                <li><strong>Jumlah Halaman</strong>: xiv + 24 halaman</li>
-                <li><strong>Tahun Terbit</strong>: 2021</li>
-                <li><strong>Penerbit</strong>: Provinsi Jawa Timur</li>
+                <li><strong>ISSN</strong>: 2747-254X</li>
+                <li><strong>Nomor Publikasi</strong>: 35730.2218</li>
+                <li><strong>Katalog</strong>: 1399013.3573</li>
+                <li><strong>Ukuran Buku</strong>: 21cm x 29,7cm</li>
+                <li><strong>Jumlah Halaman</strong>: xii + 100 halaman</li>
+                <li><strong>Tahun Terbit</strong>: 2022</li>
+                <li><strong>Penerbit</strong>: BPS Kota Malang</li>
               </ul>
             </div>
           </div>

@@ -47,7 +47,7 @@
         <!-- <span>FlexStart</span> -->
         <!-- <h1><a href="<?php echo base_url();?>Home"><span>Perpustakaan</span></a></h1> -->
         <!-- <a href=""><img src="<?php echo base_url();?>Bootslander/assets/img/logo_bps.png" alt="" class="img-fluid" width="250" height="100"></a> -->
-        <a href=""><img src="<?php echo base_url();?>Bootslander/assets/img/Bps.png" alt="" class="img-fluid" width="250" height="100"></a>
+        <a href=""><img src="<?php echo base_url();?>Bootslander/assets/img/logobps.png" alt="" class="img-fluid" width="230" height="100"></a>
       <!-- </a> -->
 
       <!-- <div class="logo"> -->
@@ -177,11 +177,11 @@
   </div>
 </div>
 
-<div class="text-center">
+<!-- <div class="text-center">
       <br><br>
       <a href="<?= base_url()?>katalog" class="btn-get-started scrollto">More Catalogue</a>
       </br>
-</div>
+</div> -->
 
 </div>
 
