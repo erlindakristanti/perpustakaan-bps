@@ -12,7 +12,7 @@ class Dashboard extends CI_Controller{
     {
         $isi['content'] = 'v_content';
         $isi['total_buku'] = $this->m_dashboard->total_buku();
-        $isi['total_pengarang'] = $this->m_dashboard->total_pengarang();
+        $isi['total_penyunting'] = $this->m_dashboard->total_penyunting();
         $isi['total_penerbit'] = $this->m_dashboard->total_penerbit();
         $isi['total_feedback'] = $this->m_dashboard->total_feedback();
         $this->load->view('v_dashboard', $isi);

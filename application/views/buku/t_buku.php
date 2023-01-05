@@ -18,6 +18,49 @@
                 <label for="exampleInputName1">Judul Buku</label>
                     <input type="text" name="judul_buku" class="form-control" id="exampleInputName1" placeholder="Judul Buku" required>
             </div>
+
+            <div class="form-group">
+                <label for="exampleInputName1">ISSN</label>
+                    <input type="text" name="issn" class="form-control" id="exampleInputName1" placeholder="ISSN" required>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputName1">No Publikasi</label>
+                    <input type="text" name="no_publikasi" class="form-control" id="exampleInputName1" placeholder="No Publikasi" required>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputName1">No Katalog</label>
+                    <input type="text" name="no_katalog" class="form-control" id="exampleInputName1" placeholder="No Katalog" required>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputName1">Ukuran Buku</label>
+                    <input type="text" name="ukuran_buku" class="form-control" id="exampleInputName1" placeholder="Ukuan Buku" required>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputName1">Jumlah Halaman Buku</label>
+                    <input type="text" name="halaman" class="form-control" id="exampleInputName1" placeholder="Jumlah Halaman" required>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputName1">Naskah</label>
+                    <input type="text" name="naskah" class="form-control" id="exampleInputName1" placeholder="Naskah" required>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputName1">Penyunting</label>
+                    <select name="id_penyunting" class="form-control select2" id="exampleInputName1" required>
+
+                    <option value=""> - Pilih Penyunting - </option>
+                    <?php
+                        foreach ($penyunting as $row) {?>
+                            <option value = "<?= $row->id_penyunting;?>"><?= $row-> nama_penyunting; ?></option> 
+                    <?php }
+                    ?>
+                </select>
+            </div>
                
             <div class="form-group">
                 <label for="exampleInputName1">Penerbit</label>
@@ -30,34 +73,6 @@
                     <?php }
                     ?>
                 </select>
-            </div>
-
-            <div class="form-group">
-                <label for="exampleInputName1">Pengarang</label>
-                    <select name="id_pengarang" class="form-control select2" id="exampleInputName1" required>
-
-                    <option value=""> - Pilih Pengarang - </option>
-                    <?php
-                        foreach ($pengarang as $row) {?>
-                            <option value = "<?= $row->id_pengarang;?>"><?= $row-> nama_pengarang; ?></option> 
-                    <?php }
-                    ?>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="exampleInputName1">ISBN</label>
-                    <input type="text" name="isbn" class="form-control" id="exampleInputName1" placeholder="ISBN" required>
-            </div>
-
-            <div class="form-group">
-                <label for="exampleInputName1">Tahun</label>
-                    <input type="text" name="tahun" class="form-control" id="exampleInputName1" placeholder="Tahun" required>
-            </div>
-
-            <div class="form-group">
-                <label for="exampleInputName1">Jumlah Halaman Buku</label>
-                    <input type="text" name="halaman" class="form-control" id="exampleInputName1" placeholder="Jumlah Halaman" required>
             </div>
 
             <div class="form-group">

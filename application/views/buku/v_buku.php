@@ -33,9 +33,14 @@
                         <tr>
                           <th> Id Buku</th>
                           <th> Judul Buku</th>
+                          <th> ISSN</th>
+                          <th> No Publikasi</th>
+                          <th> No Katalog</th>
+                          <th> Ukuran Buku</th>
+                          <th> Halaman</th>
+                          <th> Naskah</th>
+                          <th> Nama Penyunting</th>
                           <th> Nama Penerbit</th>
-                          <th> Nama Pengarang</th>
-                          <th> ISBN</th>
                           <th> foto</th>
                           <th> Aksi </th>
                       </thead>
@@ -45,9 +50,14 @@
                               <tr>
                                   <td><?= $row->id_buku;?></td>
                                   <td><?= $row->judul_buku;?></td>
+                                  <td><?= $row->issn;?></td>
+                                  <td><?= $row->no_publikasi;?></td>
+                                  <td><?= $row->no_katalog;?></td>
+                                  <td><?= $row->ukuran_buku;?></td>
+                                  <td><?= $row->halaman;?></td>
+                                  <td><?= $row->naskah;?></td>
+                                  <td><?= $row->nama_penyunting;?></td>
                                   <td><?= $row->nama_penerbit;?></td>
-                                  <td><?= $row->nama_pengarang;?></td>
-                                  <td><?= $row->isbn;?></td>
                                   <td class="text-center">
                                       <a href="<?= base_url()?>assets/buku/gambar/<?= $row->foto;?>" target="_blank">
                                           <img src="<?= base_url()?>assets/buku/gambar/<?= $row->foto;?>" alt="">

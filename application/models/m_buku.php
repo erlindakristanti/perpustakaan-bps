@@ -7,7 +7,7 @@ class M_buku extends CI_Model{
     {
         $this->db->select ('*');
         $this->db->from ('buku');
-        $this->db->join ('pengarang', 'buku.id_pengarang = pengarang.id_pengarang');
+        $this->db->join ('penyunting', 'buku.id_penyunting = penyunting.id_penyunting');
         $this->db->join ('penerbit', 'buku.id_penerbit = penerbit.id_penerbit');
         return $this->db->get();
     }
@@ -32,7 +32,7 @@ class M_buku extends CI_Model{
     {
         $this->db->select('*');
         $this->db->from('buku');
-        $this->db->join('pengarang', 'buku.id_pengarang = pengarang.id_pengarang');
+        $this->db->join('penyunting', 'buku.id_penyunting = penyunting.id_penyunting');
         $this->db->join('penerbit', 'buku.id_penerbit = penerbit.id_penerbit');
         $this->db->where('id_buku', $id);
         return $this->db->get()->row_array();

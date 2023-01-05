@@ -20,7 +20,7 @@ class Buku Extends CI_Controller{
     {
         $isi['content'] = 'buku/t_buku';
         $isi['id_buku'] = $this->m_buku->id_buku();
-        $isi['pengarang'] = $this->db->get('pengarang')->result();
+        $isi['penyunting'] = $this->db->get('penyunting')->result();
         $isi['penerbit'] = $this->db->get('penerbit')->result();
         $this->load->view('v_dashboard', $isi);
     }
@@ -36,11 +36,14 @@ class Buku Extends CI_Controller{
         $data = array(
             'id_buku'         => $this-> input->post('id_buku'),
             'judul_buku'      => $this-> input->post('judul_buku'),
-            'id_penerbit'     => $this-> input->post('id_penerbit'),
-            'id_pengarang'    => $this-> input->post('id_pengarang'),
-            'isbn'            => $this-> input->post('isbn'),
-            'tahun'           => $this-> input->post('tahun'),
+            'issn'            => $this-> input->post('issn'),
+            'no_publikasi'    => $this-> input->post('no_publikasi'),
+            'no_katalog'      => $this-> input->post('no_katalog'),
+            'ukuran_buku'     => $this-> input->post('ukuran_buku'),
             'halaman'         => $this-> input->post('halaman'),
+            'naskah'          => $this-> input->post('naskah'),
+            'id_penyunting'    => $this-> input->post('id_penyunting'),
+            'id_penerbit'     => $this-> input->post('id_penerbit'),
             'foto'            => $file_name['file_name'],
 
         );
@@ -55,7 +58,7 @@ class Buku Extends CI_Controller{
     public function edit($id)
     {
         $isi['content'] = 'buku/e_buku';
-        $isi['pengarang'] = $this->db->get('pengarang')->result();
+        $isi['penyunting'] = $this->db->get('penyunting')->result();
         $isi['penerbit'] = $this->db->get('penerbit')->result();
         $isi['data'] = $this->m_buku->edit($id); 
         $this->load->view('v_dashboard', $isi);
@@ -78,12 +81,15 @@ class Buku Extends CI_Controller{
             $data = array(
                 'id_buku'         => $this-> input->post('id_buku'),
                 'judul_buku'      => $this-> input->post('judul_buku'),
-                'id_penerbit'     => $this-> input->post('id_penerbit'),
-                'id_pengarang'    => $this-> input->post('id_pengarang'),
-                'isbn'            => $this-> input->post('isbn'),
-                'tahun'           => $this-> input->post('tahun'),
+                'issn'            => $this-> input->post('issn'),
+                'no_publikasi'    => $this-> input->post('no_publikasi'),
+                'no_katalog'      => $this-> input->post('no_katalog'),
+                'ukuran_buku'     => $this-> input->post('ukuran_buku'),
                 'halaman'         => $this-> input->post('halaman'),
-                'foto' => $gambar,
+                'naskah'          => $this-> input->post('naskah'),
+                'id_penyunting'   => $this-> input->post('id_penyunting'),
+                'id_penerbit'     => $this-> input->post('id_penerbit'),
+                'foto'            => $gambar,
                 
             );
             $_id = $this->db->get_where('buku', ['id_buku' => $id_buku])->row();
@@ -97,11 +103,14 @@ class Buku Extends CI_Controller{
             $data = array(
                 'id_buku'         => $this-> input->post('id_buku'),
                 'judul_buku'      => $this-> input->post('judul_buku'),
-                'id_penerbit'     => $this-> input->post('id_penerbit'),
-                'id_pengarang'    => $this-> input->post('id_pengarang'),
-                'isbn'            => $this-> input->post('isbn'),
-                'tahun'           => $this-> input->post('tahun'),
+                'issn'            => $this-> input->post('issn'),
+                'no_publikasi'    => $this-> input->post('no_publikasi'),
+                'no_katalog'      => $this-> input->post('no_katalog'),
+                'ukuran_buku'     => $this-> input->post('ukuran_buku'),
                 'halaman'         => $this-> input->post('halaman'),
+                'naskah'          => $this-> input->post('naskah'),
+                'id_penyunting'   => $this-> input->post('id_penyunting'),
+                'id_penerbit'     => $this-> input->post('id_penerbit'),
             ); 
             $query = $this->m_buku->update($id_buku, $data);
             if ($query = true) {

@@ -8,9 +8,9 @@ class M_dashboard extends CI_Model {
         return $this->db->get('buku')->num_rows();
     }
 
-    public function total_pengarang()
+    public function total_penyunting()
     {
-        return $this->db->get('pengarang')->num_rows();
+        return $this->db->get('penyunting')->num_rows();
     }
 
     public function total_penerbit()

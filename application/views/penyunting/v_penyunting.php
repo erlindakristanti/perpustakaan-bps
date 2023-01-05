@@ -19,32 +19,32 @@
                 <div class="card-body">
                   <h3 class="card-title">Perpustakaan BPS Kota Malang</h3>
                   <p class="card-description">
-                    Data Pengarang
+                    Data Penyunting
                   </p>
                   <hr>
                   <div class="row">
                   <div class="col-md-6">
-                  <a href="<?= base_url() ?>pengarang/tambah_pengarang" class="btn btn-success"><i></i>  Tambah Pengarang</a>
+                  <a href="<?= base_url() ?>penyunting/tambah_penyunting" class="btn btn-success"><i></i>  Tambah Penyunting</a>
     </div>
 
                   <div class="table-responsive pt-3">
                     <table class="table table-bordered" id="dataTable" width="100%">
                       <thead>
                         <tr>
-                          <th> Id Pengarang</th>
-                          <th> Nama Pengarang</th>
+                          <th> Id Penyunting</th>
+                          <th> Nama Penyunting</th>
                           <th> Aksi </th>
                       </thead>
                       <tbody>
                       <?php
                             foreach ($data as $row) {?>
                             <tr>
-                                <td><?= $row->id_pengarang;?></td>
-                                <td><?= $row->nama_pengarang;?></td>
+                                <td><?= $row->id_penyunting;?></td>
+                                <td><?= $row->nama_penyunting;?></td>
                                 
                                 <td>
-                                            <a href="<?= base_url()?>pengarang/edit/<?= $row->id_pengarang;?>" class="btn btn-success btn-sm"> Edit </a>
-                                            <a href="<?= base_url()?>pengarang/hapus/<?= $row->id_pengarang;?>" class="btn btn-danger btn-sm"onclick="return confirm('Anda Yakin Ingin Menghapus?')"> Delete </a>
+                                            <a href="<?= base_url()?>penyunting/edit/<?= $row->id_penyunting;?>" class="btn btn-success btn-sm"> Edit </a>
+                                            <a href="<?= base_url()?>penyunting/hapus/<?= $row->id_penyunting;?>" class="btn btn-danger btn-sm"onclick="return confirm('Anda Yakin Ingin Menghapus?')"> Delete </a>
                                         </td>
                                 
                             </tr>
