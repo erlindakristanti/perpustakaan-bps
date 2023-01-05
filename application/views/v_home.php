@@ -120,14 +120,14 @@
         </div>
 
         <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-          <h3>Pelayanan Perpustakaan BPS Kota Malang</h3>
-          <p>Selamat datang di Pelayanan Perpustakaan BPS Kota Malang!<br> Di website ini Anda dapat menemukan berbagai layanan yang kami sediakan, reservasi kunjungan langsung, informasi pustaka buku statistik dan informasi kontak yang dapat dihubungi. #MelayaniDenganHati❤️</p>
+          <h3>PERPUSTAKAAN BPS KOTA MALANG</h3>
+          <p>Selamat datang di Perpustakaan BPS Kota Malang!<br> Di website ini Anda dapat menemukan berbagai layanan yang kami sediakan, reservasi kunjungan langsung, informasi pustaka buku statistik dan informasi kontak yang dapat dihubungi. #MelayaniDenganHati❤️</p>
 
           <!-- <h4>Pelayanan Perpustakaan Terpadu BPS Kota Malang</h4> -->
           <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon"><i class="bx bx-book"></i></div>
             <h4 class="title"><a href="">Koleksi Buku</a></h4>
-            <p class="description">Bagi sahabat data dapat membaca koleksi buku perpustakaan pada website ini di menu katalog berupa e-book</p>
+            <p class="description">Bagi sahabat data dapat membaca koleksi buku perpustakaan pada website ini <br> di menu katalog berupa e-book</p>
           </div>
 
           <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
@@ -148,88 +148,72 @@
     </div>
   </section><!-- End About Section -->
 
-  <!-- ======= Pricing Section ======= -->
-  <section id="pricing" class="pricing">
+<!-- ======= Values Section ======= -->
+<section id="values" class="values">
 
 <div class="container" data-aos="fade-up">
 
   <header class="section-header">
-    <h2>Pricing</h2>
-    <p>Check our Pricing</p>
+    <h3>STANDAR PELAYANAN PERPUSTAKAAN</h3>
   </header>
 
-  <div class="row gy-4" data-aos="fade-left">
-
-    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+  <div class="row">
+    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
       <div class="box">
-        <h3 style="color: #07d5c0;">Free Plan</h3>
-        <div class="price"><sup>$</sup>0<span> / mo</span></div>
-        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
-        <ul>
-          <li>Aida dere</li>
-          <li>Nec feugiat nisl</li>
-          <li>Nulla at volutpat dola</li>
-          <li class="na">Pharetra massa</li>
-          <li class="na">Massa ultricies mi</li>
-        </ul>
-        <a href="#" class="btn-buy">Buy Now</a>
+        <img src="<?php echo base_url();?>Bootslander/assets/img/values-1.png" class="img-fluid" alt="">
+        <h3>Resceptionist</h3>
+        <p>Pengunjung datang ke Pelayanan Statistik Terpadu (PST) BPS Kota Malang</p>
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
       <div class="box">
-        <span class="featured">Featured</span>
-        <h3 style="color: #65c600;">Starter Plan</h3>
-        <div class="price"><sup>$</sup>19<span> / mo</span></div>
-        <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
-        <ul>
-          <li>Aida dere</li>
-          <li>Nec feugiat nisl</li>
-          <li>Nulla at volutpat dola</li>
-          <li>Pharetra massa</li>
-          <li class="na">Massa ultricies mi</li>
-        </ul>
-        <a href="#" class="btn-buy">Buy Now</a>
+        <img src="<?php echo base_url();?>Bootslander/assets/img/values-2.png" class="img-fluid" alt="">
+        <h3>Mengisi Buku Tamu</h3>
+        <p>Pengunjung mengisi data diri secara lengkap di Buku Tamu Elektronik PST BPS Kota Malang</p>
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
       <div class="box">
-        <h3 style="color: #ff901c;">Business Plan</h3>
-        <div class="price"><sup>$</sup>29<span> / mo</span></div>
-        <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
-        <ul>
-          <li>Aida dere</li>
-          <li>Nec feugiat nisl</li>
-          <li>Nulla at volutpat dola</li>
-          <li>Pharetra massa</li>
-          <li>Massa ultricies mi</li>
-        </ul>
-        <a href="#" class="btn-buy">Buy Now</a>
+        <img src="<?php echo base_url();?>Bootslander/assets/img/values-3.png" class="img-fluid" alt="">
+        <h3>Perpustakaan Tercetak</h3>
+        <p>Pengunjung dapat menggunakan publikasi tercetak yang tersedia di Perpustakaan PST BPS Kota Malang</p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="box">
+        <img src="<?php echo base_url();?>Bootslander/assets/img/values-1.png" class="img-fluid" alt="">
+        <h3>E-Library</h3>
+        <p>Pengunjung juga dapat memanfaatkan perpustakaan digital PST BPS Kota Malang</p>
       </div>
     </div>
 
-    <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
       <div class="box">
-        <h3 style="color: #ff0071;">Ultimate Plan</h3>
-        <div class="price"><sup>$</sup>49<span> / mo</span></div>
-        <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
-        <ul>
-          <li>Aida dere</li>
-          <li>Nec feugiat nisl</li>
-          <li>Nulla at volutpat dola</li>
-          <li>Pharetra massa</li>
-          <li>Massa ultricies mi</li>
-        </ul>
-        <a href="#" class="btn-buy">Buy Now</a>
+        <img src="<?php echo base_url();?>Bootslander/assets/img/values-2.png" class="img-fluid" alt="">
+        <h3>Form Permintaan</h3>
+        <p>Pengunjung mengisi form permintaan data digital</p>
+      </div>
+    </div>
+
+    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+      <div class="box">
+        <img src="<?php echo base_url();?>Bootslander/assets/img/values-3.png" class="img-fluid" alt="">
+        <h3>Pelayanan Selesai</h3>
+        <p>Pengunjung telah selesai melakukan kunjungan</p>
       </div>
     </div>
 
   </div>
-
 </div>
 
-</section><!-- End Pricing Section -->
+</section><!-- End Values Section -->
 
   <!-- ======= Catalogue Section ======= -->
   <section id="team" class="team">
@@ -546,42 +530,18 @@
         </div>
 
         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.976356099664!2d112.6189741141568!3d-8.001374982035772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd628003e38fe73%3A0x3aa76fdd366c7827!2sBadan%20Pusat%20Statistik%20(BPS)%20Kota%20Malang!5e0!3m2!1sid!2sid!4v1670313704268!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
-          <form action="<?= base_url()?>feedback/simpan" method="post" role="form" class="php-email-form">
+          <div class="peta">
             <div class="section-title" data-aos="fade-up">
-              <h2>Peta Lokasi BPS Kota Malang</h2>
-              <br>
+              <h4>Peta Lokasi BPS Kota Malang</h4>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.976356099664!2d112.6189741141568!3d-8.001374982035772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd628003e38fe73%3A0x3aa76fdd366c7827!2sBadan%20Pusat%20Statistik%20(BPS)%20Kota%20Malang!5e0!3m2!1sid!2sid!4v1670313704268!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
-            <!-- <div class="row">
-              <div class="form-group col-md-6">
-                <input type="text" name="nama" class="form-control" id="nama" placeholder="Your Name" required>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" id="message" rows="10" placeholder="Message" required></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div> -->
-          </form>
+          </div>
         </div>
 
       </div>
 
     </div>
   </section><!-- End Contact Section --> 
-  <!-- coba -->
-
 
   </main><!-- End #main -->
 
