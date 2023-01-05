@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 11 Des 2022 pada 09.57
--- Versi server: 10.4.14-MariaDB
--- Versi PHP: 7.4.10
+-- Generation Time: Jan 05, 2023 at 11:24 AM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,31 +24,60 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `buku`
+-- Table structure for table `buku`
 --
 
 CREATE TABLE `buku` (
   `id_buku` varchar(25) NOT NULL,
   `judul_buku` varchar(30) NOT NULL,
+  `issn` varchar(20) NOT NULL,
+  `no_publikasi` varchar(20) NOT NULL,
+  `no_katalog` varchar(20) NOT NULL,
+  `ukuran_buku` varchar(20) NOT NULL,
+  `halaman` varchar(20) NOT NULL,
+  `naskah` varchar(20) NOT NULL,
+  `id_penyunting` int(11) NOT NULL,
   `id_penerbit` varchar(15) NOT NULL,
-  `id_pengarang` int(15) NOT NULL,
-  `isbn` varchar(20) NOT NULL,
-  `tahun` int(20) NOT NULL,
-  `halaman` int(15) NOT NULL,
   `foto` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `buku`
+-- Dumping data for table `buku`
 --
 
-INSERT INTO `buku` (`id_buku`, `judul_buku`, `id_penerbit`, `id_pengarang`, `isbn`, `tahun`, `halaman`, `foto`) VALUES
-('B0002', 'Matematika k', 'P001', 3, '232', 2006, 120, 'unicorn_1.jpg');
+INSERT INTO `buku` (`id_buku`, `judul_buku`, `issn`, `no_publikasi`, `no_katalog`, `ukuran_buku`, `halaman`, `naskah`, `id_penyunting`, `id_penerbit`, `foto`) VALUES
+('B0002', 'Matematika k', '0', '', '', '', '', '', 0, 'P001', 'unicorn_1.jpg'),
+('B0003', 'Statistika', '53725', '32647-634', '764.87', '19 x 70', 'xii + 56', 'BPS Kota Malang', 1, 'P001', 'perpustakaan4.png');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `galeri`
+-- Table structure for table `feedback`
+--
+
+CREATE TABLE `feedback` (
+  `id` int(11) NOT NULL,
+  `nama` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `subject` varchar(500) NOT NULL,
+  `message` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `feedback`
+--
+
+INSERT INTO `feedback` (`id`, `nama`, `email`, `subject`, `message`) VALUES
+(1, 'fanisa', 'fanisa@feedback.com', 'coba feedback', 'coba feedback'),
+(2, 'fanisa n', 'fanisaa@feedback.com', 'coba feedback 2', 'coba feedback 2'),
+(3, 'fanisaaa', 'fanisaaa@feedback.com', 'coba feedback 3', 'coba feedback 3'),
+(4, 'fanisa n', 'fanisaa@feedback.com', 'coba feedback 5', 'coba feedback 5'),
+(5, 'fanisa', 'fanisa@feedback.com', 'coba feedback 6', 'coba feedback 6');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `galeri`
 --
 
 CREATE TABLE `galeri` (
@@ -58,7 +87,7 @@ CREATE TABLE `galeri` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `galeri`
+-- Dumping data for table `galeri`
 --
 
 INSERT INTO `galeri` (`id_galeri`, `nama`, `foto`) VALUES
@@ -69,7 +98,7 @@ INSERT INTO `galeri` (`id_galeri`, `nama`, `foto`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `katalog`
+-- Table structure for table `katalog`
 --
 
 CREATE TABLE `katalog` (
@@ -79,7 +108,7 @@ CREATE TABLE `katalog` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `katalog`
+-- Dumping data for table `katalog`
 --
 
 INSERT INTO `katalog` (`id_katalog`, `id_buku`, `e_book`) VALUES
@@ -88,7 +117,7 @@ INSERT INTO `katalog` (`id_katalog`, `id_buku`, `e_book`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `login`
+-- Table structure for table `login`
 --
 
 CREATE TABLE `login` (
@@ -100,7 +129,7 @@ CREATE TABLE `login` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `login`
+-- Dumping data for table `login`
 --
 
 INSERT INTO `login` (`id`, `nama`, `username`, `password`, `level`) VALUES
@@ -110,7 +139,7 @@ INSERT INTO `login` (`id`, `nama`, `username`, `password`, `level`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `penerbit`
+-- Table structure for table `penerbit`
 --
 
 CREATE TABLE `penerbit` (
@@ -119,7 +148,7 @@ CREATE TABLE `penerbit` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `penerbit`
+-- Dumping data for table `penerbit`
 --
 
 INSERT INTO `penerbit` (`id_penerbit`, `nama_penerbit`) VALUES
@@ -129,78 +158,88 @@ INSERT INTO `penerbit` (`id_penerbit`, `nama_penerbit`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `pengarang`
+-- Table structure for table `penyunting`
 --
 
-CREATE TABLE `pengarang` (
-  `id_pengarang` int(15) NOT NULL,
-  `nama_pengarang` varchar(30) NOT NULL
+CREATE TABLE `penyunting` (
+  `id_penyunting` int(15) NOT NULL,
+  `nama_penyunting` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data untuk tabel `pengarang`
+-- Dumping data for table `penyunting`
 --
 
-INSERT INTO `pengarang` (`id_pengarang`, `nama_pengarang`) VALUES
-(2, 'dfdsf'),
-(3, 'Erlinda'),
-(4, 'Erlinda');
+INSERT INTO `penyunting` (`id_penyunting`, `nama_penyunting`) VALUES
+(1, 'BPS Kota Malang');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `buku`
+-- Indexes for table `buku`
 --
 ALTER TABLE `buku`
   ADD PRIMARY KEY (`id_buku`);
 
 --
--- Indeks untuk tabel `galeri`
+-- Indexes for table `feedback`
+--
+ALTER TABLE `feedback`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `galeri`
 --
 ALTER TABLE `galeri`
   ADD PRIMARY KEY (`id_galeri`);
 
 --
--- Indeks untuk tabel `katalog`
+-- Indexes for table `katalog`
 --
 ALTER TABLE `katalog`
   ADD PRIMARY KEY (`id_katalog`);
 
 --
--- Indeks untuk tabel `login`
+-- Indexes for table `login`
 --
 ALTER TABLE `login`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indeks untuk tabel `penerbit`
+-- Indexes for table `penerbit`
 --
 ALTER TABLE `penerbit`
   ADD PRIMARY KEY (`id_penerbit`);
 
 --
--- Indeks untuk tabel `pengarang`
+-- Indexes for table `penyunting`
 --
-ALTER TABLE `pengarang`
-  ADD PRIMARY KEY (`id_pengarang`);
+ALTER TABLE `penyunting`
+  ADD PRIMARY KEY (`id_penyunting`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `galeri`
+-- AUTO_INCREMENT for table `feedback`
+--
+ALTER TABLE `feedback`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `galeri`
 --
 ALTER TABLE `galeri`
   MODIFY `id_galeri` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- AUTO_INCREMENT untuk tabel `pengarang`
+-- AUTO_INCREMENT for table `penyunting`
 --
-ALTER TABLE `pengarang`
-  MODIFY `id_pengarang` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+ALTER TABLE `penyunting`
+  MODIFY `id_penyunting` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
