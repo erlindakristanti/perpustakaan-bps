@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 05, 2023 at 11:24 AM
+-- Generation Time: Jan 05, 2023 at 03:28 PM
 -- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.10
+-- PHP Version: 7.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -68,11 +68,7 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `nama`, `email`, `subject`, `message`) VALUES
-(1, 'fanisa', 'fanisa@feedback.com', 'coba feedback', 'coba feedback'),
-(2, 'fanisa n', 'fanisaa@feedback.com', 'coba feedback 2', 'coba feedback 2'),
-(3, 'fanisaaa', 'fanisaaa@feedback.com', 'coba feedback 3', 'coba feedback 3'),
-(4, 'fanisa n', 'fanisaa@feedback.com', 'coba feedback 5', 'coba feedback 5'),
-(5, 'fanisa', 'fanisa@feedback.com', 'coba feedback 6', 'coba feedback 6');
+(1, 'FANISA', 'Fanisaa@feedback.com', 'Feedback', 'Kritik dan Saran');
 
 -- --------------------------------------------------------
 
@@ -227,7 +223,7 @@ ALTER TABLE `penyunting`
 -- AUTO_INCREMENT for table `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `galeri`

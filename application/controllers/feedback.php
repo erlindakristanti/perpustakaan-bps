@@ -8,6 +8,11 @@ class Feedback Extends CI_Controller{
         $this->load->model('m_feedback');
     }
 
+    public function tambah_feedback()
+    {
+        $this->load->view('feedback/t_feedback');
+    }
+
     public function index()
     {
         $isi['content'] = 'feedback/v_feedback';
@@ -27,6 +32,6 @@ class Feedback Extends CI_Controller{
 
         );
         $query = $this->db->insert('feedback', $data);
-            redirect('v_home','refresh');
+            redirect('home','refresh');
     }
 }
