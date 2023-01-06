@@ -160,7 +160,7 @@
   <div class="row">
     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
       <div class="box">
-        <img src="<?php echo base_url();?>Bootslander/assets/img/receptionist.png" class="img-fluid" alt="">
+        <img src="<?php echo base_url();?>Bootslander/assets/img/receptionist.jpg" class="img-fluid" alt="">
         <h3>Resceptionist</h3>
         <p>Pengunjung datang ke Pelayanan Statistik Terpadu (PST) BPS Kota Malang</p>
       </div>
@@ -168,7 +168,7 @@
 
     <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
       <div class="box">
-        <img src="<?php echo base_url();?>Bootslander/assets/img/values-2.png" class="img-fluid" alt="">
+        <img src="<?php echo base_url();?>Bootslander/assets/img/bukutamu.jpg" class="img-fluid" alt="">
         <h3>Mengisi Buku Tamu</h3>
         <p>Pengunjung mengisi data diri secara lengkap di Buku Tamu Elektronik PST BPS Kota Malang</p>
       </div>
@@ -176,7 +176,7 @@
 
     <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
       <div class="box">
-        <img src="<?php echo base_url();?>Bootslander/assets/img/values-3.png" class="img-fluid" alt="">
+        <img src="<?php echo base_url();?>Bootslander/assets/img/perpus.jpg" class="img-fluid" alt="">
         <h3>Perpustakaan Tercetak</h3>
         <p>Pengunjung dapat menggunakan publikasi tercetak yang tersedia di Perpustakaan PST BPS Kota Malang</p>
       </div>
@@ -204,9 +204,9 @@
 
     <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
       <div class="box">
-        <img src="<?php echo base_url();?>Bootslander/assets/img/values-3.png" class="img-fluid" alt="">
+        <img src="<?php echo base_url();?>Bootslander/assets/img/end.png" class="img-fluid" alt="">
         <h3>Pelayanan Selesai</h3>
-        <p>Pengunjung telah selesai melakukan kunjungan</p>
+        <p>Pengunjung telah selesai melakukan kunjungan. Selanjutnya dapat memberikan kritik dan saran pada fom <a href="<?= base_url()?>feedback/tambah_feedback" class="text-primary">Feedback</a></p>
       </div>
     </div>
 
@@ -281,53 +281,6 @@
 
     </div>
   </section><!-- End Catalogue Section -->
-
-  <!-- ======= Counts Section ======= -->
-    <!-- <section id="counts" class="counts">
-    <div class="container">
-
-      <div class="section-title" data-aos="fade-up">
-        <center><h3>Koleksi Perpustakaan</h3><center>
-      </div>
-
-      <div class="row" data-aos="fade-up">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Statistik</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Penduduk</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Ekonomi</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-people"></i>
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Pertanian</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div> -->
-  <!-- </section>End Counts Section -->
 
   <!-- ======= Gallery Section ======= -->
   <section id="gallery" class="gallery">
@@ -406,7 +359,7 @@
 </div>
 </div>
 
-  </section><!-- End Gallery Section -->
+</section><!-- End Gallery Section -->
 
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials">  
@@ -579,8 +532,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Koleksi Buku</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Permintaan Data</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Pelayanan Umum</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
             </ul>
           </div>
 
