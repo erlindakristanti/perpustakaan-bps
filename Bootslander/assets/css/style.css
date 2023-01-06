@@ -1224,6 +1224,26 @@ section {
   /* background: rgb(190, 187, 209); */
 }
 
+.team .judul-katalog p {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: #01036f;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.team .search .form-check {
+  /* text-align: center; */
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.contact .button .bi-search:hover i {
+  background: #1acc8d;
+  color: #fff;
+}
+
 .team .member {
   text-align: center;
   margin-bottom: 80px;
@@ -1597,7 +1617,6 @@ section {
 }
 
 .contact .peta h4 {
-  /* padding: 0 0 0 60px; */
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -1639,7 +1658,7 @@ section {
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   background: #010246;
   color: #fff;
   border-top: 4px solid #1acc8d;

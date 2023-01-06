@@ -160,7 +160,7 @@
   <div class="row">
     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
       <div class="box">
-        <img src="<?php echo base_url();?>Bootslander/assets/img/values-1.png" class="img-fluid" alt="">
+        <img src="<?php echo base_url();?>Bootslander/assets/img/receptionist.png" class="img-fluid" alt="">
         <h3>Resceptionist</h3>
         <p>Pengunjung datang ke Pelayanan Statistik Terpadu (PST) BPS Kota Malang</p>
       </div>
@@ -188,7 +188,7 @@
   <div class="row">
     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
       <div class="box">
-        <img src="<?php echo base_url();?>Bootslander/assets/img/values-1.png" class="img-fluid" alt="">
+        <img src="<?php echo base_url();?>Bootslander/assets/img/e-library.jpg" class="img-fluid" alt="">
         <h3>E-Library</h3>
         <p>Pengunjung juga dapat memanfaatkan perpustakaan digital PST BPS Kota Malang</p>
       </div>
@@ -196,7 +196,7 @@
 
     <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
       <div class="box">
-        <img src="<?php echo base_url();?>Bootslander/assets/img/values-2.png" class="img-fluid" alt="">
+        <img src="<?php echo base_url();?>Bootslander/assets/img/form.jpg" class="img-fluid" alt="">
         <h3>Form Permintaan</h3>
         <p>Pengunjung mengisi form permintaan data digital</p>
       </div>

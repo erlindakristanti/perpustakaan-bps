@@ -84,32 +84,7 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <div class="container">
-      <div class="section-title" data-aos="fade-up">
-        <!-- <h2>About</h2> -->
-        <center><p>Online Public Access Catalogue</p><center>
-      </div>
-
-      <div class="col-py-4" data-aos="fade-up">
-        <form action="" method="GET" style="margin: 0 auto; width: 100%" class="w-100">
-          <div class="bg-light rounded shadow-blue-md mb-2">
-            <div class="input-group">
-              <input type="text" placeholder="Masukkan judul atau kata kunci pustaka" aria-describedby="button-addon1" class="form-control form-input check-value border-1 rounded text-dark" style="border: 0px solid #3d84b8; box-shadow: 0px 1px 5px #3d84b8;" name="q" value="">
-              <input type="hidden" name="subyek" value="">
-              <input type="hidden" name="media" value="no">
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-link bx bx-search"><i data-feather="search"></i></button>
-              </div>
-            </div>
-          </div>
-        <div class="form-check">
-        &nbsp;
-          <input class="form-check-input" type="checkbox" value="match_whole" id="match_whole" name="match_whole">
-          <label class="form-check-label" for="match_whole">Cocokkan seluruh kata</label>
-        </div>
-        </form>
-    </div>
-    </div>
+    
 
     <!-- <div class="col-lg-6">
 
@@ -130,7 +105,36 @@
     <section id="team" class="team">
       <div class="container">
 
-      <div class="row" data-aos="fade-left">
+      <div class="judul-katalog" data-aos="fade-up">
+        <!-- <h2>About</h2> -->
+        <center><p>Online Public Access Catalogue</p><center>
+      </div>
+
+      <div class="search" data-aos="fade-up"> 
+        <div class="col-py-4">
+          <form action="" method="GET" style="margin: 0 auto; width: 100%" class="w-100">
+            <div class="bg-light rounded shadow-blue-md mb-2">
+              <div class="input-group">
+                <input type="text" placeholder="Masukkan judul atau kata kunci pustaka" aria-describedby="button-addon1" class="form-control form-input check-value border-1 rounded text-dark" style="border: 0px solid #3d84b8; box-shadow: 0px 1px 5px #3d84b8;" name="q" value="">
+                <input type="hidden" name="subyek" value="">
+                <input type="hidden" name="media" value="no">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-link bi bi-search"><i data-feather="search"></i></button>
+                </div>
+              </div>
+            </div>
+          <div class="form-check">
+            &nbsp;
+              <input class="form-check-input" type="checkbox" value="match_whole" id="match_whole" name="match_whole">
+              <label class="form-check-label" for="match_whole">Cocokkan seluruh kata</label>
+          </div>
+          </form>
+        </div>
+      </div>
+      
+    
+
+<div class="row" data-aos="fade-left">
 
 <div class="col-lg-3 col-md-6">
   <div class="member" data-aos="zoom-in" data-aos-delay="100">

@@ -77,6 +77,7 @@
 
         <ol>
           <li><a href="<?= base_url()?>Home">Home</a></li>
+          <li><a href="<?= base_url()?>katalog">Katalog Buku</a></li>
           <li>Detail Buku</li>
         </ol>
 
@@ -113,6 +114,7 @@
                 <li><strong>Jumlah Halaman</strong>: xii + 100 halaman</li>
                 <li><strong>Tahun Terbit</strong>: 2022</li>
                 <li><strong>Penerbit</strong>: BPS Kota Malang</li>
+                <li><strong><a href="<?php echo base_url();?>assets/buku/e-book/Third-Party-Notices.pdf">Ebook</a></strong>: More</li>
               </ul>
             </div>
           </div>
