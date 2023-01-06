@@ -283,7 +283,7 @@
   </section><!-- End Catalogue Section -->
 
   <!-- ======= Gallery Section ======= -->
-  <section id="gallery" class="gallery">
+  <!-- <section id="gallery" class="gallery">
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
@@ -357,9 +357,10 @@
   </div>
 
 </div>
-</div>
+</div> -->
 
-</section><!-- End Gallery Section -->
+<!-- </section> -->
+<!-- End Gallery Section -->
 
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials">  

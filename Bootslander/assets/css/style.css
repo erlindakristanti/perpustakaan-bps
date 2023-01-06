@@ -1239,10 +1239,10 @@ section {
   position: relative;
 }
 
-.contact .button .bi-search:hover i {
+/* .contact .button .bi-search:hover i {
   background: #1acc8d;
   color: #fff;
-}
+} */
 
 .team .member {
   text-align: center;
