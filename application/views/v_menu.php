@@ -34,7 +34,7 @@
         </li>
 
       <li class="nav-item">
-          <a class="nav-link" href="<?= base_url()?>katalog">
+          <a class="nav-link" href="<?= base_url()?>a_katalog">
             <i class="icon-layout menu-icon"></i>
             <span class="menu-title">Katalog Buku</span>
           </a>
