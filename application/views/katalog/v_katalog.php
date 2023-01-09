@@ -121,7 +121,7 @@
   <div class="member" data-aos="zoom-in" data-aos-delay="100">
     <div class="pic"><img src="<?php echo base_url();?>Bootslander/assets/img/buku/bk4.jpg" class="img-fluid" alt=""></div>
     <div class="member-info">
-      <h4>Walter White</h4>
+      <h4>Statistik Indonesia Dalam Infografis</h4>
       <!-- <span>Chief Executive Officer</span> -->
       <a href="<?= base_url()?>detailbuku" class="text-primary"><span>Selengkapnya</span></a>
       <!-- <a href="<?= base_url()?>detailbuku" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
@@ -133,9 +133,9 @@
   <div class="member" data-aos="zoom-in" data-aos-delay="200">
     <div class="pic"><img src="<?php echo base_url();?>Bootslander/assets/img/buku/bk3.jpg" class="img-fluid" alt=""></div>
     <div class="member-info">
-      <h4>Sarah Jhonson</h4>
+      <h4>Statistik Indonesia 2022</h4>
       <!-- <span>Product Manager</span> -->
-      <a href="register.html" class="text-primary"><span>Selengkapnya</span></a>
+      <a href="<?= base_url()?>detailbuku" class="text-primary"><span>Selengkapnya</span></a>
     </div>
   </div>
 </div>
@@ -144,9 +144,9 @@
   <div class="member" data-aos="zoom-in" data-aos-delay="300">
     <div class="pic"><img src="<?php echo base_url();?>Bootslander/assets/img/buku/bk4.jpg" class="img-fluid" alt=""></div>
     <div class="member-info">
-      <h4>William Anderson</h4>
+      <h4>Statistik Indonesia Dalam Infografis</h4>
       <!-- <span>CTO</span> -->
-      <a href="register.html" class="text-primary"><span>Selengkapnya</span></a>
+      <a href="<?= base_url()?>detailbuku" class="text-primary"><span>Selengkapnya</span></a>
     </div>
   </div>
 </div>
@@ -155,8 +155,8 @@
   <div class="member" data-aos="zoom-in" data-aos-delay="400">
     <div class="pic"><img src="<?php echo base_url();?>Bootslander/assets/img/buku/bk5.jpg" class="img-fluid" alt=""></div>
     <div class="member-info">
-      <h4>Amanda Jepson</h4>
-      <a href="register.html" class="text-primary"><span>Selengkapnya</span></a>
+      <h4>Potret Sensus Penduduk</h4>
+      <a href="<?= base_url()?>detailbuku" class="text-primary"><span>Selengkapnya</span></a>
     </div>
   </div>
 </div>
