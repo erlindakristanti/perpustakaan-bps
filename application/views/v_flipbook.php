@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Perpustakaan Flip Book</title>
+	<link href="<?php echo base_url()?>assets/gambar/logo.png" rel="icon">
+  	<link href="<?php echo base_url();?>Bootslander/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 	<style type="text/css">
 		body{
 			overflow: hidden;
