@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.3
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 05, 2023 at 03:28 PM
+-- Generation Time: Jan 09, 2023 at 07:52 AM
 -- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.11
+-- PHP Version: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -47,7 +47,10 @@ CREATE TABLE `buku` (
 
 INSERT INTO `buku` (`id_buku`, `judul_buku`, `issn`, `no_publikasi`, `no_katalog`, `ukuran_buku`, `halaman`, `naskah`, `id_penyunting`, `id_penerbit`, `foto`) VALUES
 ('B0002', 'Matematika k', '0', '', '', '', '', '', 0, 'P001', 'unicorn_1.jpg'),
-('B0003', 'Statistika', '53725', '32647-634', '764.87', '19 x 70', 'xii + 56', 'BPS Kota Malang', 1, 'P001', 'perpustakaan4.png');
+('B0004', 'Statistik Indonesia 2022', '53725', '32647-634', '764.87', '19 x 70', '120', 'BPS Kota Malang', 1, 'P001', 'bk3.jpg'),
+('B0005', 'Statistik Indonesia Dalam Info', '53725', '32647-634', '764.87', '19 x 70', 'xii + 56', 'BPS Kota Malang', 1, 'P001', 'bk4.jpg'),
+('B0006', 'Statistik Indonesia Dalam Info', '53725', '32647-634', '764.87', '19 x 70', '120', 'BPS Kota Malang', 1, 'P001', 'bk41.jpg'),
+('B0007', 'Potret Sensus Penduduk', '53725', '32647-634', '764.87', '19 x 70', '120', 'BPS Kota Malang', 1, 'P001', 'bk5.jpg');
 
 -- --------------------------------------------------------
 
@@ -68,7 +71,11 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `nama`, `email`, `subject`, `message`) VALUES
-(1, 'FANISA', 'Fanisaa@feedback.com', 'Feedback', 'Kritik dan Saran');
+(1, 'fanisa', 'fanisa@feedback.com', 'coba feedback', 'coba feedback'),
+(2, 'fanisa n', 'fanisaa@feedback.com', 'coba feedback 2', 'coba feedback 2'),
+(3, 'fanisaaa', 'fanisaaa@feedback.com', 'coba feedback 3', 'coba feedback 3'),
+(4, 'fanisa n', 'fanisaa@feedback.com', 'coba feedback 5', 'coba feedback 5'),
+(5, 'fanisa', 'fanisa@feedback.com', 'coba feedback 6', 'coba feedback 6');
 
 -- --------------------------------------------------------
 
@@ -223,7 +230,7 @@ ALTER TABLE `penyunting`
 -- AUTO_INCREMENT for table `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `galeri`
