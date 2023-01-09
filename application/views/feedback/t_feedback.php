@@ -156,7 +156,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#team">Catalogue</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#gallery">Gallery</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url()?>feedback/tambah_feedback">Feedback</a></li>
             </ul>

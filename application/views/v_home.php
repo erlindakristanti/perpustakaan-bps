@@ -206,7 +206,7 @@
       <div class="box">
         <img src="<?php echo base_url();?>Bootslander/assets/img/end.png" class="img-fluid" alt="">
         <h3>Pelayanan Selesai</h3>
-        <p>Pengunjung telah selesai melakukan kunjungan. Selanjutnya dapat memberikan kritik dan saran pada fom <a href="<?= base_url()?>feedback/tambah_feedback" class="text-primary">Feedback</a></p>
+        <p>Pengunjung telah selesai melakukan kunjungan. Selanjutnya dapat memberikan kritik dan saran pada form <a href="<?= base_url()?>feedback/tambah_feedback" class="text-primary">Feedback</a></p>
       </div>
     </div>
 
