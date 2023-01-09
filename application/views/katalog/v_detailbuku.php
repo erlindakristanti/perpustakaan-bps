@@ -114,7 +114,7 @@
                 <li><strong>Jumlah Halaman</strong>: xii + 100 halaman</li>
                 <li><strong>Tahun Terbit</strong>: 2022</li>
                 <li><strong>Penerbit</strong>: BPS Kota Malang</li>
-                <li><strong><a href="<?php echo base_url();?>assets/buku/e-book/Third-Party-Notices.pdf">Ebook</a></strong>: More</li>
+                <li><strong>Ebook</strong>:<a href="<?= base_url()?>flipbook"> More</a></li>
               </ul>
             </div>
           </div>

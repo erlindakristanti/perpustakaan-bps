@@ -41,29 +41,10 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <!-- <a href="index.html" class="logo d-flex align-items-center"> -->
-        <!-- <img src="<?php echo base_url();?>Bootslander/assets/img/Bps.png" alt=""> -->
-        <!-- <span>FlexStart</span> -->
-        <!-- <h1><a href="<?php echo base_url();?>Home"><span>Perpustakaan</span></a></h1> -->
-        <!-- <a href=""><img src="<?php echo base_url();?>Bootslander/assets/img/logo_bps.png" alt="" class="img-fluid" width="250" height="100"></a> -->
         <a href=""><img src="<?php echo base_url();?>Bootslander/assets/img/logobps.png" alt="" class="img-fluid" width="230" height="100"></a>
-      <!-- </a> -->
-
-      <!-- <div class="logo"> -->
-        <!-- <h1><a href="index.html"><span>Bootslander</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="<?php echo base_url();?>Bootslander/assets/img/Bps.png" alt="" class="img-fluid" width="350" height="150"></a>
-      </div> -->
+     
 
       <nav id="navbar" class="navbar">
-        <!-- <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#team">Catalogue</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul> -->
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -175,18 +156,10 @@
     <div class="pic"><img src="<?php echo base_url();?>Bootslander/assets/img/buku/bk5.jpg" class="img-fluid" alt=""></div>
     <div class="member-info">
       <h4>Amanda Jepson</h4>
-      <!-- <span>Accountant</span> -->
       <a href="register.html" class="text-primary"><span>Selengkapnya</span></a>
     </div>
   </div>
 </div>
-
-<!-- <div class="text-center">
-      <br><br>
-      <a href="<?= base_url()?>katalog" class="btn-get-started scrollto">More Catalogue</a>
-      </br>
-</div> -->
-
 </div>
 
       </div>
