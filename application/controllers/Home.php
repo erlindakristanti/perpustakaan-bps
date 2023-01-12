@@ -11,21 +11,21 @@ class Home extends CI_Controller{
 
     public function index()
     {
-        $data = array(
+        // $data = array(
 
-                'galeri' => $this->m_home->home_galeri(),
-                'isi'   => 'v_home'
-        );
+        //         'galeri' => $this->m_home->home_galeri(),
+        //         'isi'   => 'v_home'
+        // );
         $this->load->view('v_home');
     }
-    public function galeri()
-    {
+    // public function galeri()
+    // {
         
-        $data = array(
-                'title' => 'Galeri Foto',
-                'galeri'=> $this->m_home->galeri(),
-                'isi'   => 'v_home'
-                );
-    $this->load->view('v_home');
-    }
+    //     $data = array(
+    //             'title' => 'Galeri Foto',
+    //             'galeri'=> $this->m_home->galeri(),
+    //             'isi'   => 'v_home'
+    //             );
+    // $this->load->view('v_home');
+    // }
 }

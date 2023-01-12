@@ -40,12 +40,12 @@
           </a>
         </li>
 
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="<?= base_url()?>galeri">
             <i class="icon-contract menu-icon"></i>
             <span class="menu-title">Galeri</span>
           </a>
-        </li>
+        </li> -->
 
         <li class="nav-item">
           <a class="nav-link" href="feedback">
@@ -91,12 +91,12 @@
           </a>
         </li>
 
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="<?= base_url()?>galeri">
             <i class="icon-contract menu-icon"></i>
             <span class="menu-title">Galeri</span>
           </a>
-        </li>
+        </li> -->
 
         <li class="nav-item">
           <a class="nav-link" href="<?= base_url()?>feedback">
