@@ -282,7 +282,7 @@
     </div>
   </section><!-- End Catalogue Section -->
 
-  <!-- ======= TQuotes Section ======= -->
+  <!-- ======= Quotes Section ======= -->
   <section id="testimonials" class="testimonials">  
     <div class="container">
 

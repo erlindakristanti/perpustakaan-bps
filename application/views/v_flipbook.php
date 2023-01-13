@@ -7,7 +7,7 @@
 	<style type="text/css">
 		body{
 			overflow: hidden;
-			background: url('hero-bg2.jpg');
+			background: url('bg-flip.jpg');
 			background-size: 100% 100%;
 		}
 		#album{
