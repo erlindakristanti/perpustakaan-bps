@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 09, 2023 at 07:52 AM
+-- Generation Time: Jan 19, 2023 at 01:22 PM
 -- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.10
+-- PHP Version: 7.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -71,11 +71,7 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `nama`, `email`, `subject`, `message`) VALUES
-(1, 'fanisa', 'fanisa@feedback.com', 'coba feedback', 'coba feedback'),
-(2, 'fanisa n', 'fanisaa@feedback.com', 'coba feedback 2', 'coba feedback 2'),
-(3, 'fanisaaa', 'fanisaaa@feedback.com', 'coba feedback 3', 'coba feedback 3'),
-(4, 'fanisa n', 'fanisaa@feedback.com', 'coba feedback 5', 'coba feedback 5'),
-(5, 'fanisa', 'fanisa@feedback.com', 'coba feedback 6', 'coba feedback 6');
+(1, 'Feedback', 'coba@feedback.com', ' Feedback', 'Kritik dan Saran');
 
 -- --------------------------------------------------------
 
@@ -115,7 +111,11 @@ CREATE TABLE `katalog` (
 --
 
 INSERT INTO `katalog` (`id_katalog`, `id_buku`, `e_book`) VALUES
-('K0002', 'B0002', 'Third-Party-Notices.pdf');
+('K0002', 'B0002', 'Third-Party-Notices.pdf'),
+('K0003', 'B0004', 'Third-Party-Notices1.pdf'),
+('K0004', 'B0005', 'Third-Party-Notices2.pdf'),
+('K0005', 'B0006', 'Third-Party-Notices3.pdf'),
+('K0006', 'B0007', 'Third-Party-Notices4.pdf');
 
 -- --------------------------------------------------------
 
